@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">eats</string>
+    <string name="password">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="entrar_con">Entrar con:</string>
+    <string name="al_chile_entramos">Al chile entramos</string>
+
 </resources>
