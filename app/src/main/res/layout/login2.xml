@@ -89,7 +89,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
-                android:text="@string/al_chile_entramos"
+                android:text="@string/al_chile_si_le_entro"
                 android:textColor="#fff"
                 android:textSize="24sp" />
         </RelativeLayout>
@@ -127,4 +127,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.236"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes Chile? crea aqui una cuenta."
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="537dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
