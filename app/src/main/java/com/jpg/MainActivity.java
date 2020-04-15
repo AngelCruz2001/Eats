@@ -2,25 +2,27 @@ package com.jpg;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.EditText;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private Handler mHandler = new Handler();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login2);
+        setContentView(R.layout.activity_main);
 
-        mHandler.postDelayed(openNew, 1500);
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, login.class);
+                startActivity(intent);
+            }
+        }, 2000);
 
     }
-    private Runnable openNew = new Runnable() {
-        @Override
-        public void run() {
-
-        }CAAALL MEEEEEEE
-    }
-
 }

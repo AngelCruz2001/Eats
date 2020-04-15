@@ -90,7 +90,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
-                android:text="@string/al_chile_entramos"
+                android:text="@string/al_chile_si_le_entro"
                 android:textColor="#fff"
                 android:textSize="24sp" />
         </RelativeLayout>
