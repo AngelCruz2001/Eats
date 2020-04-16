@@ -1,14 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_commerce">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_universal">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="commerce" />
+    <EditText
+        android:id="@+id/horario"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_access_time_black_24dp"
+        android:ems="10"
+        android:hint="Horario"
+        android:inputType="textPersonName"
+        android:shadowColor="#EA0000"
+        android:textColor="#000000"
 
-</FrameLayout>
+        android:textColorHighlight="#67BFAE"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bussinessName" />
+
+
+    <EditText
+        android:id="@+id/bussinessName"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_business"
+        android:ems="10"
+        android:hint="@string/bussinesName"
+        android:inputType="textPersonName"
+        android:shadowColor="#EA0000"
+        android:textColor="#000000"
+        android:textColorHighlight="#67BFAE"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_phone"
+        android:ems="10"
+        android:hint="@string/phoneNumber"
+        android:inputType="textPersonName"
+        android:shadowColor="#EA0000"
+        android:textColor="#000000"
+        android:textColorHighlight="#67BFAE"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_adress"
+        android:ems="10"
+        android:hint="@string/adress"
+        android:inputType="textPersonName"
+        android:shadowColor="#EA0000"
+        android:textColor="#000000"
+        android:textColorHighlight="#67BFAE"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:src="@mipmap/logo"
+        app:srcCompat="@mipmap/chargeimagetwo"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Spinner
+        android:id="@+id/food"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:shadowColor="#EA0000"
+        android:textColor="#000000"
+        android:textColorHighlight="#67BFAE"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
