@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".universal">
+    tools:context=".fragment_universal">
 
     <EditText
-        android:id="@+id/userName3"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_alignParentEnd="true"
@@ -18,7 +18,7 @@
         android:background="#11000000"
         android:drawableStart="@drawable/ic_action_user"
         android:ems="10"
-        android:hint="@string/user"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         android:shadowColor="#EA0000"
         android:textColor="#000000"
@@ -101,50 +101,23 @@
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
 
-    <!--<androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/relativeLayout"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-        <EditText
-            android:id="@+id/name"
-            android:layout_width="0dp"
-            android:layout_height="41dp"
-            android:autofillHints=""
-            android:background="#11000000"
-            android:drawableStart="@drawable/ic_action_user"
-            android:ems="10"
-            android:hint="@string/user"
-            android:inputType="textPersonName"
-            android:shadowColor="#EA0000"
-            android:textColor="#000000"
-            android:textColorHighlight="#67BFAE"
-            android:textColorHint="#000000"/>
-
-    </androidx.appcompat.widget.LinearLayoutCompat>
-    -->
 
     <EditText
-        android:id="@+id/phoneNumber2"
+        android:id="@+id/etPlannedDate"
         android:layout_width="0dp"
         android:layout_height="41dp"
-
+        android:focusable="false"
+        android:clickable="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
         android:autofillHints=""
         android:background="#11000000"
-        android:drawableStart="@drawable/ic_phone"
+        android:drawableStart="@drawable/ic_date"
         android:ems="10"
-        android:hint="@string/phoneNumber"
+        android:hint="@string/date"
         android:inputType="date"
         android:shadowColor="#EA0000"
         android:textColor="#000000"
@@ -176,7 +149,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userName3" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -190,26 +163,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
-        <RadioButton
-            android:id="@+id/rbtn_commerce"
-            android:layout_width="131dp"
-            android:layout_height="wrap_content"
-            android:text="@string/rbtn_commerce"
-            android:textSize="18sp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radio"
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/rbtn_client"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
-            android:text="@string/rbtn_client"
-            android:textSize="18sp" />
+            <RadioButton
+                android:id="@+id/rbtn_commerce"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_commerce"
+                android:textSize="18sp" />
 
-        <RadioButton
-            android:id="@+id/rbtn_deliver"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="@string/rbtn_deliver"
-            android:textSize="18sp" />
+            <RadioButton
+                android:id="@+id/rbtn_client"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_client"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbtn_deliver"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_deliver"
+                android:textSize="18sp" />
+        </RadioGroup>
 
     </LinearLayout>
 
@@ -222,6 +202,6 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/etPlannedDate" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

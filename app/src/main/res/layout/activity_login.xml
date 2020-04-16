@@ -33,7 +33,7 @@
         android:background="#11000000"
         android:drawableStart="@drawable/ic_action_user"
         android:ems="10"
-        android:hint="@string/user"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         android:shadowColor="#EA0000"
         android:textColor="#000000"
