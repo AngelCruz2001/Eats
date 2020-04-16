@@ -27,6 +27,9 @@
     <string name="rbtn_client">Cliente</string>
     <string name="rbtn_deliver">Repartidor</string>
     <string name="kindUser">Tipo de usuario</string>
+    <string name="kindVehicule">Medio de transporte</string>
+
+    <string name="curp">Curp</string>
     <string-array name="food_types">
         <item>Tipo de comida</item>
         <item>Comida</item>
