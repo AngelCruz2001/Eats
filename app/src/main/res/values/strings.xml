@@ -2,6 +2,8 @@
     <string name="app_name">eats</string>
     <string name="password">Contraseña</string>
     <string name="user">Usuario</string>
+    <string name="name">Nombre(s)</string>
+    <string name="surname">Apellido</string>
     <string name="entrar_con">Entrar con:</string>
     <string name="al_chile_si_le_entro">¡Al chile si le entró!</string>
     <string name="title_activity_menu">Menu</string>
@@ -18,5 +20,16 @@
 
     <string name="home_second">Home Second</string>
     <string name="title_activity_user_menu2">userMenu2</string>
+    <string name="al_chile_siguiente">Siguiente</string>
+    <string name="al_chile_si_le_entro">¡Al chile si le entró!</string>
+    <string name="phoneNumber">Telefono</string>
+    <string name="rbtn_commerce">Comercio</string>
+    <string name="rbtn_client">Cliente</string>
+    <string name="rbtn_deliver">Repartidor</string>
+    <string name="kindUser">Tipo de usuario</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
