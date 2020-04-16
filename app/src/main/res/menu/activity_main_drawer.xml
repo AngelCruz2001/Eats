@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_billetera"
+            android:icon="@drawable/ic_wallet"
+            android:title="Billetera" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favs"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_historial_de_compra"
+            android:icon="@drawable/ic_shops"
+            android:title="Historial de compra" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_gear"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/ic_help"
+            android:title="Dudas" />
+    </group>
+</menu>
