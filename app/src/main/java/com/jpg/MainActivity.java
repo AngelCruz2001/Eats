@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.EditText;
-import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private Handler mHandler = new Handler();
@@ -20,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(MainActivity.this, RegistroActivity.class);
+                Intent intent = new Intent(MainActivity.this, Login.class);
 
                 startActivity(intent);
             }

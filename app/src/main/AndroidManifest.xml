@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".userMenu"></activity>
-        <activity android:name=".login" />
+        <activity android:name=".Login" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".Menu_view" />
         <activity android:name=".MainActivity">

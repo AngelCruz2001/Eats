@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".login">
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView"
@@ -226,7 +226,7 @@
 
         <RadioButton
             android:id="@+id/rbtn_deliver"
-            android:layout_width="120dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:text="@string/rbtn_deliver"
             android:textSize="18sp" />
