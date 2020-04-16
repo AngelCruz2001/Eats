@@ -3,7 +3,7 @@
     <string name="password">Contraseña</string>
     <string name="user">Usuario</string>
     <string name="name">Nombre(s)</string>
-    <string name="surname">Apellido</string>
+    <string name="surname">Apellidos</string>
     <string name="entrar_con">Entrar con:</string>
     <string name="al_chile_si_le_entro">¡Al chile si le entró!</string>
     <string name="title_activity_menu">Menu</string>
