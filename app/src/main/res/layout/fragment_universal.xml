@@ -91,7 +91,7 @@
         android:drawableStart="@drawable/ic_phone"
         android:ems="10"
         android:hint="@string/phoneNumber"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:shadowColor="#EA0000"
         android:textColor="#000000"
         android:textColorHighlight="#67BFAE"
